@@ -3,8 +3,8 @@ var ghpages = require("gh-pages")
 ghpages.publish(
   "__sapper__/export",
   {
-    branch: "masters",
-    repo: "https://github.com/jbtis/missions.pe",
+    branch: "gh-pages",
+    repo: "https://github.com/jbtis/missions.pe.git",
     user: {
       name: "Mariano Bello",
       email: "social@missions.pe",
