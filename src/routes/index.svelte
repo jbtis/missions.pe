@@ -13,7 +13,7 @@
     property="og:image"
     content={`https://tristanedwards.me/images/social.jpg`} />
 
-  <title>Tristan Edwards | Designer & Developer</title>
+  <title>Missions | ONG</title>
   <meta
     name="description"
     content="Portfolio of designer & developer Tristan Edwards" />
