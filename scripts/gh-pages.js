@@ -4,10 +4,10 @@ ghpages.publish(
   "__sapper__/export",
   {
     branch: "gh-pages",
-    repo: "https://github.com/t4t5/tristanedwards.me.git",
+    repo: "https://github.com/jbtis/missions.pe",
     user: {
-      name: "Tristan Edwards",
-      email: "tristan.edwards@me.com",
+      name: "Mariano Bello",
+      email: "social@missions.pe",
     },
   },
   () => {
