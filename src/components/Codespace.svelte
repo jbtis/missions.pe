@@ -6,9 +6,9 @@
   <div class="text">
     <p>
       My latest project is
-      <a href="https://codespace.app" target="_blank">Codespace</a>
+      <a href="https://codespace.app" target="_blank">Missions</a>
     </p>
-    <p>A beautiful cross-platform code snippet manager.</p>
+    <p>Travel with a purpose.</p>
   </div>
 
   <div class="screenshot" />
