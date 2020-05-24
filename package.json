@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev --ext '.mdx .svelte'",
     "build": "sapper build --legacy --ext '.mdx .svelte'",
-    "export": "sapper export --legacy --ext '.mdx .svelte'",
+    "export": "sapper export --basepath missions.pe --legacy",
     "start": "node __sapper__/build",
     "deploy": "npm run export && node ./scripts/gh-pages.js"
   },
