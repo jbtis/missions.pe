@@ -1,13 +1,17 @@
 {
-  "name": "tristanedwards.me",
-  "description": "Portfolio website for Tristan Edwards",
+  "name": "Sapper PWA App",
+  "description": "Sapper PWA App",
   "version": "0.0.1",
   "scripts": {
-    "dev": "sapper dev --ext '.mdx .svelte'",
-    "build": "sapper build --legacy --ext '.mdx .svelte'",
-    "export": "sapper export --legacy --ext '.mdx .svelte",
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
     "start": "node __sapper__/build",
-    "deploy": "npm run export && node ./scripts/gh-pages.js"
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run",
+    "clean": "rm -rf ./__sapper__",
+    "export": "sapper export --legacy",
+    "deploy": "npm run clean && npm run export && node ./scripts/gh-pages.js"
   },
   "dependencies": {
     "compression": "^1.7.1",
