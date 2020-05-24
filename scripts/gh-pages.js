@@ -1,7 +1,7 @@
 var ghpages = require("gh-pages")
 
 ghpages.publish(
-  "__sapper__/export",
+  "__sapper__/export/missions.pe",
   {
     branch: "gh-pages",
     repo: "https://github.com/jbtis/missions.pe.git",
