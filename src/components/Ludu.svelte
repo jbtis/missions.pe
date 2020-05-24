@@ -11,14 +11,14 @@
   </a>
 
   <p>
-    I aspire to reinvent education with
+    Test 123
     <a href="https://ludu.co" target="_blank" class="ludu-logo">
-      Ludu
+      456789
       <LuduLogotype width="86" height="46" />
     </a>
   </p>
 
-  <p>Check out some of my online courses there!</p>
+  <p>Hola</p>
 
   <div class="courses">
     <CourseCard
